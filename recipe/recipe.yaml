@@ -33,6 +33,7 @@ tests:
         - airflow_dbt
       pip_check: true
       python_version: ${{ python_min }}.*
+
 about:
   summary: Apache Airflow integration for dbt
   license: MIT
